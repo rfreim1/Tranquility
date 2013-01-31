@@ -1,0 +1,79 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+
+namespace tranquility
+{
+    class PauseScreen
+    {
+        MenuComponent menuComponent;
+        Texture2D image;
+        Rectangle imageRec;
+        Game1 game;
+        SpriteBatch spriteBatch;
+        SpriteFont spriteFont;
+        string menuTitle; 
+        KeyboardState keyboardstate;
+        KeyboardState oldkeyboardstate;
+
+
+        public int SelectedItem
+        {
+            get { return menuComponent.selectedItem; }
+            set { menuComponent.selectedItem = value; }
+        }
+
+        public bool CheckKey(Keys theKey)
+        {
+            return keyboardstate.IsKeyUp(theKey) && oldkeyboardstate.IsKeyDown(theKey);
+        }
+
+        public PauseScreen (Game1 game, SpriteBatch spriteBatch) {
+            this.game = game;
+            this.spriteBatch = spriteBatch;
+            menuTitle = "Paused";
+            spriteFont = game.Content.Load<SpriteFont>("menufont");
+            image = game.Content.Load<Texture2D>("MenuBG");
+            string[] menuItems = { "Resume Game", "Quit Game" };
+            menuComponent = new MenuComponent(game, spriteBatch, spriteFont, menuItems);
+            game.Components.Add(menuComponent);
+            imageRec = new Rectangle(0, 0, game.Window.ClientBounds.Width, game.Window.ClientBounds.Height);
+        }
+
+
+
+        public void Update(GameTime gameTime)
+        {
+            keyboardstate = Keyboard.GetState();
+            if (CheckKey(Keys.Enter))
+            {
+                if (SelectedItem == 0)
+                {
+                    ((Game1)game).Disable(menuComponent);
+                    game.UnPause();
+                }
+                if (SelectedItem == 1)
+                    game.Exit();
+            }
+            oldkeyboardstate = keyboardstate;
+        }
+
+        public void Draw(GameTime gameTime)
+        {
+           
+            spriteBatch.Draw(image, imageRec, Color.White);
+
+            // Draw the menu title centered on the screen
+            Vector2 titlePosition = new Vector2(game.Window.ClientBounds.Width / 2,
+                game.Window.ClientBounds.Height - 400);
+            Color titleColor = Color.White;
+            Vector2 titleOrigin = spriteFont.MeasureString(menuTitle) / 2;
+            spriteBatch.DrawString(spriteFont, menuTitle, titlePosition, titleColor, 
+                0, titleOrigin, 2f, SpriteEffects.None, 0);
+        }
+    }
+}

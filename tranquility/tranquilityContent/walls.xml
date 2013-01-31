@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<walls>
+	<wall>
+		<positionX>0</positionX>
+		<positionY>0</positionY>
+		<positionZ>0</positionZ>
+		<sizeX>1</sizeX>
+		<sizeY>1</sizeY>
+		<sizeZ>1</sizeZ>
+	</wall>
+	<wall>
+		<positionX>2</positionX>
+		<positionY>0</positionY>
+		<positionZ>0</positionZ>
+		<sizeX>1</sizeX>
+		<sizeY>1</sizeY>
+		<sizeZ>1</sizeZ>
+	</wall>
+</walls>

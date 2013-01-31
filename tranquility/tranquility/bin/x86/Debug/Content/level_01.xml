@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<level>
+  <walls>
+    
+    <!-- 1 -->
+    <wall>
+      <positionX>-1</positionX>
+      <positionY>0</positionY>
+      <positionZ>3</positionZ>
+      <sizeX>3</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>1</sizeZ>
+    </wall>
+    
+    <!-- 2 -->
+    <wall>
+      <positionX>-4</positionX>
+      <positionY>0</positionY>
+      <positionZ>-2</positionZ>
+      <sizeX>1</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>8</sizeZ>
+    </wall>
+
+    <!-- 3 -->
+    <wall>
+      <positionX>-4</positionX>
+      <positionY>0</positionY>
+      <positionZ>-3</positionZ>
+      <sizeX>7</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>1</sizeZ>
+    </wall>
+
+    <!-- 4 -->
+    <wall>
+      <positionX>2</positionX>
+      <positionY>0</positionY>
+      <positionZ>-2</positionZ>
+      <sizeX>1</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>6</sizeZ>
+    </wall>
+
+    <!-- 5 -->
+    <wall>
+      <positionX>-4</positionX>
+      <positionY>0</positionY>
+      <positionZ>6</positionZ>
+      <sizeX>9</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>1</sizeZ>
+    </wall>
+
+    <!-- 6 -->
+    <wall>
+      <positionX>5</positionX>
+      <positionY>0</positionY>
+      <positionZ>-3</positionZ>
+      <sizeX>1</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>10</sizeZ>
+    </wall>
+
+    <!-- 7 -->
+    <wall>
+      <positionX>-7</positionX>
+      <positionY>0</positionY>
+      <positionZ>-6</positionZ>
+      <sizeX>23</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>1</sizeZ>
+    </wall>
+
+    <!-- 8 -->
+    <wall>
+      <positionX>-7</positionX>
+      <positionY>0</positionY>
+      <positionZ>-5</positionZ>
+      <sizeX>1</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>6</sizeZ>
+    </wall>
+
+    <!-- 9 -->
+    <wall>
+      <positionX>-7</positionX>
+      <positionY>0</positionY>
+      <positionZ>1</positionZ>
+      <sizeX>3</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>1</sizeZ>
+    </wall>
+
+    <!-- 8b -->
+    <wall>
+      <positionX>8</positionX>
+      <positionY>0</positionY>
+      <positionZ>-5</positionZ>
+      <sizeX>1</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>5</sizeZ>
+    </wall>
+
+    <!-- 9b -->
+    <wall>
+      <positionX>6</positionX>
+      <positionY>0</positionY>
+      <positionZ>2</positionZ>
+      <sizeX>7</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>1</sizeZ>
+    </wall>
+
+    <!-- 10 -->
+    <wall>
+      <positionX>15</positionX>
+      <positionY>0</positionY>
+      <positionZ>-5</positionZ>
+      <sizeX>1</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>14</sizeZ>
+    </wall>
+
+    <!-- 11 -->
+    <wall>
+      <positionX>-4</positionX>
+      <positionY>0</positionY>
+      <positionZ>9</positionZ>
+      <sizeX>20</sizeX>
+      <sizeY>2</sizeY>
+      <sizeZ>1</sizeZ>
+    </wall>
+  </walls>
+
+  <coins>
+    <coin>
+      <positionX>11.5</positionX>
+      <positionY>.75</positionY>
+      <positionZ>-0.5</positionZ>
+    </coin>
+
+    <coin>
+      <positionX>11.5</positionX>
+      <positionY>.75</positionY>
+      <positionZ>-4.5</positionZ>
+    </coin>
+
+    <coin>
+      <positionX>9.5</positionX>
+      <positionY>.75</positionY>
+      <positionZ>-2.5</positionZ>
+    </coin>
+
+    <coin>
+      <positionX>13.5</positionX>
+      <positionY>.75</positionY>
+      <positionZ>-2.5</positionZ>
+    </coin>
+
+    <coin>
+      <positionX>-5</positionX>
+      <positionY>.75</positionY>
+      <positionZ>-0.5</positionZ>
+    </coin>
+
+    <coin>
+      <positionX>6.5</positionX>
+      <positionY>.75</positionY>
+      <positionZ>3.5</positionZ>
+    </coin>
+  </coins>
+
+
+  <traps>
+    <trap>
+      <positionX>11.5</positionX>
+      <positionY>0</positionY>
+      <positionZ>-2.5</positionZ>
+    </trap>
+
+    <trap>
+      <positionX>8.5</positionX>
+      <positionY>0</positionY>
+      <positionZ>3.5</positionZ>
+    </trap>
+    <trap>
+      <positionX>6.5</positionX>
+      <positionY>0</positionY>
+      <positionZ>5.5</positionZ>
+    </trap>
+  </traps>
+
+  <goal>
+    <positionX>-4</positionX>
+    <positionY>0</positionY>
+    <positionZ>7.5</positionZ>
+    <sizeX>1</sizeX>
+    <sizeY>1</sizeY>
+    <sizeZ>1</sizeZ>
+  </goal>
+</level>

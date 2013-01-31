@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Bat.png</Source>
+      <Name>Bat</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor">226, 24, 191, 255</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\Bat.xnb</Output>
+      <Time>2013-01-30T21:04:06.7127113-06:00</Time>
+    </Item>
+    <Item>
+      <Source>startmenubackground.png</Source>
+      <Name>startmenubackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\startmenubackground.xnb</Output>
+      <Time>2013-01-30T21:04:06.7257121-06:00</Time>
+    </Item>
+    <Item>
+      <Source>blood.jpg</Source>
+      <Name>blood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\blood.xnb</Output>
+      <Time>2013-01-30T21:04:06.7457132-06:00</Time>
+    </Item>
+    <Item>
+      <Source>door.jpg</Source>
+      <Name>door</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\door.xnb</Output>
+      <Time>2013-01-30T21:04:06.6967104-06:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuBG.png</Source>
+      <Name>MenuBG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\MenuBG.xnb</Output>
+      <Time>2013-01-30T21:04:06.7227119-06:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\menufont.xnb</Output>
+      <Time>2013-01-30T21:04:06.7087111-06:00</Time>
+    </Item>
+    <Item>
+      <Source>coin.FBX</Source>
+      <Name>coin</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="ResizeTexturesToPowerOfTwo">True</Data>
+        <Data Key="Scale">0.001</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\coin.xnb</Output>
+      <Time>2013-01-30T21:04:06.7317124-06:00</Time>
+      <Dependency>
+        <Key>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\coin_0.xml</Key>
+        <Value>2013-01-30T21:04:33.7822596-06:00</Value>
+      </Dependency>
+      <Request>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\yellow-coin5_0.xnb</Request>
+      <Request>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\yellow-coin_0.xnb</Request>
+      <Request>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\yellow-coin3_0.xnb</Request>
+      <Request>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\yellow-coin6_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>beartrap.fbx</Source>
+      <Name>beartrap</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.1</Data>
+        <Data Key="ResizeTexturesToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\beartrap.xnb</Output>
+      <Time>2013-01-30T21:04:06.7517136-06:00</Time>
+      <Dependency>
+        <Key>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\beartrap_0.xml</Key>
+        <Value>2013-01-30T21:04:35.1233363-06:00</Value>
+      </Dependency>
+      <Request>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\metal_texture_3_by_wojtar_stock_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>transition.wav</Source>
+      <Name>transition</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\transition.xnb</Output>
+      <Time>2013-01-30T21:04:06.7057109-06:00</Time>
+    </Item>
+    <Item>
+      <Source>blue.mp3</Source>
+      <Name>blue</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\blue.xnb</Output>
+      <Extra>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\blue.wma</Extra>
+      <Time>2013-01-30T21:04:06.7017107-06:00</Time>
+    </Item>
+    <Item>
+      <Source>red.mp3</Source>
+      <Name>red</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\red.xnb</Output>
+      <Extra>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\red.wma</Extra>
+      <Time>2013-01-30T21:04:06.7367127-06:00</Time>
+    </Item>
+    <Item>
+      <Source>green.mp3</Source>
+      <Name>green</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\green.xnb</Output>
+      <Extra>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\green.wma</Extra>
+      <Time>2013-01-30T21:04:06.7197117-06:00</Time>
+    </Item>
+    <Item>
+      <Source>white.mp3</Source>
+      <Name>white</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\white.xnb</Output>
+      <Extra>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\white.wma</Extra>
+      <Time>2013-01-30T21:04:06.741713-06:00</Time>
+    </Item>
+    <Item>
+      <Source>coinCollected.wma</Source>
+      <Name>coinCollected</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\coinCollected.xnb</Output>
+      <Time>2013-01-30T21:04:06.7157115-06:00</Time>
+    </Item>
+    <Item>
+      <Source>coin.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\coin_0.xml</Output>
+      <Time>2013-01-30T21:04:06.7317124-06:00</Time>
+    </Item>
+    <Item>
+      <Source>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\FBX\97E327D7\coin.fbm\yellow-coin5.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\yellow-coin5_0.xnb</Output>
+      <Time>2013-01-30T21:04:33.6592526-06:00</Time>
+    </Item>
+    <Item>
+      <Source>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\FBX\97E327D7\coin.fbm\yellow-coin.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\yellow-coin_0.xnb</Output>
+      <Time>2013-01-30T21:04:33.6602527-06:00</Time>
+    </Item>
+    <Item>
+      <Source>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\FBX\97E327D7\coin.fbm\yellow-coin3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\yellow-coin3_0.xnb</Output>
+      <Time>2013-01-30T21:04:33.6602527-06:00</Time>
+    </Item>
+    <Item>
+      <Source>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\FBX\97E327D7\coin.fbm\yellow-coin6.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\yellow-coin6_0.xnb</Output>
+      <Time>2013-01-30T21:04:33.6612527-06:00</Time>
+    </Item>
+    <Item>
+      <Source>beartrap.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\beartrap_0.xml</Output>
+      <Time>2013-01-30T21:04:06.7517136-06:00</Time>
+    </Item>
+    <Item>
+      <Source>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\FBX\3C24297F\beartrap.fbm\metal_texture_3_by_wojtar_stock.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\metal_texture_3_by_wojtar_stock_0.xnb</Output>
+      <Time>2013-01-30T21:04:33.9892715-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{FC677D04-A04D-45C1-AB54-AFB68F850F4D}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquilityContent\</RootDirectory>
+      <LoggerRootDirectory>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\</LoggerRootDirectory>
+      <IntermediateDirectory>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>R:\Documents\Class Work\tranquility\tranquility with menu\tranquility\tranquility\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-04-14T15:11:58.4729814-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
